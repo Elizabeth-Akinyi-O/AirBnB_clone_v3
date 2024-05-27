@@ -3,7 +3,7 @@
 from datetime import datetime, timedelta as t_d
 import inspect
 import models
-import pycodestyle
+import pycodestyle as pep8
 import time
 import unittest
 from unittest import mock

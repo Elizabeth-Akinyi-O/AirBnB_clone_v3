@@ -79,7 +79,7 @@ def post_place(city_id):
 
 @app_views.route('/places_search', strict_slashes=False, methods=['POST'])
 def post_place_search():
-    
+
     data_json = request.get_json(force=True, silent=True)
     if (type(data_json) is not dict):
         abort(400, "Not a JSON")
